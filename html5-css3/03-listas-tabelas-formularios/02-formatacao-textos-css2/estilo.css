@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 50px;
+    font-size: 17px;
+}
+
+p {
+    /* Alterar a cor */
+    color: #0000ff;
+
+    /* Altera o tamanho do texto */
+    font-size: 20px;
+
+    /* Altera a fonte */
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* Altera o alinhamento do texto */
+    text-align: left;
+
+    /* Altera o texto para maiúsculo ou minúsculo */
+    text-transform: uppercase;
+
+    /* Altera o espaçamento entre as letras */
+    letter-spacing: 2px;
+
+    /* Altera o espaçamento da lateral entre as palavras */
+    word-spacing: 2px;
+
+    /* Altera o espaçamento da altura entre as palavras */
+    line-height: 40px;
+
+    /* Adiciona sombra (Direita, Baixo, Esfumaçamento, Cor) */
+    text-shadow: 4px 8px 5px red;
+}
