@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 50px;
+    font-size: 17px;
+}
+
+p {
+    /* Alterar a cor */
+    color: #0000ff;
+
+    /* Altera o tamanho do texto */
+    font-size: 30px;
+
+    /* Altera a densidade do texto */
+    font-weight: bold;
+
+    /* Altera a fonte */
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* Altera o alinhamento do texto */
+    text-align: left;
+}
+
+a {
+    /* Define a decoração do texto */
+    text-decoration: none;
+}
+
+a:hover {
+    /* Define a decoração do texto ao colocar o cursor sobre o elemento */
+    text-decoration: underline;
+}
