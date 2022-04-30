@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 50px;
+    font-size: 17px;
+}
+
+h1 {
+    font-family: "Water Brush";
+}
+
+p {
+    /* Alterar a cor */
+    color: #0000ff;
+
+    /* Altera o tamanho do texto */
+    font-size: 20px;
+
+    /* Altera a fonte */
+    font-family: "Tapestry";
+
+    /* Altera o alinhamento do texto */
+    text-align: left;
+}
