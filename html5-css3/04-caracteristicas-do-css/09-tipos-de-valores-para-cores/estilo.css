@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    /* background-color: red; */
+    /* background-color: rgb(255, 0, 0); */
+    /* background-color: #ff0000; */
+    /* background-color: hsl(100, 0, 0); */
+    color: #ff0000;
+}
+
+h1 {
+    border: 2px solid currentColor;
+}
