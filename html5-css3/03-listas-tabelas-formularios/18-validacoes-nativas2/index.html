@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Página de Teste</title>
+    </head>
+    <link rel="stylesheet" href="estilo.css" />
+    <body>
+        <form method="post" action="blablabla.php">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <label>
+                    Primeiro Nome: <br />
+                    <input type="text" name="nome" required minlength="2" maxlength="4" />
+                </label>
+                <br />
+                <label>
+                    Sobrenome: <br />
+                    <input type="text" name="sobrenome" required />
+                </label>
+                <br />
+                <label>
+                    Idade: <br />
+                    <input type="number" name="idade" required step="2" min="18" max="100" />
+                </label>
+                <br />
+                <label>
+                    Data de Nascimento: <br />
+                    <input type="date" name="nascimento" min="2022-01-01" />
+                </label>
+                <br />
+                <label>
+                    E-mail: <br />
+                    <input
+                        type="text"
+                        name="email"
+                        pattern="(^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$)"
+                        title="endereço de e-mail"
+                        required
+                    />
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Dados Profissionais</legend>
+                <label>
+                    Nome da Empresa: <br />
+                    <input type="text" name="empresa" />
+                </label>
+                <br />
+                <label>
+                    Cargo na Empresa: <br />
+                    <input type="text" name="cargo" />
+                </label>
+            </fieldset>
+            <input type="submit" value="Cadastrar" />
+        </form>
+    </body>
+</html>
